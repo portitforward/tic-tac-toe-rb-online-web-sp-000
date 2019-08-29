@@ -111,7 +111,7 @@ end
 
 def play(board)
   turn_counter = turn_count(board)
-  until turn_counter == 9 do
+  until turn_counter == 8 do
     turn(board)
     turn_counter = turn_count(board)
     if won?(board) == true
