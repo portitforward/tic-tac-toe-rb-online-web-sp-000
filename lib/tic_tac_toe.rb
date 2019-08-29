@@ -120,6 +120,7 @@ def play(board)
       break
     elsif draw?(board) == true
       puts "Draw game. Play again?"
+      break
     else
       turn(board)
     end  
