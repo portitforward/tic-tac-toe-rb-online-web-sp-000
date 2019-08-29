@@ -127,4 +127,3 @@ def play(board)
   end  
 end  
 
-play(test_board)
