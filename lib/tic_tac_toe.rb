@@ -83,7 +83,7 @@ def turn(board)
   puts "Where would you like to move? 1-9"
   player = current_player(board)
   input = gets.strip
-  input = input_to_index(input)
+#  input = input_to_index(input)
   if valid_move?(board, input)
     move(board, input, player)
     display_board(board)
