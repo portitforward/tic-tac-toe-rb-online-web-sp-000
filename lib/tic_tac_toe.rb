@@ -123,3 +123,5 @@ def play(board)
     end  
   end  
 end  
+
+play(board)
