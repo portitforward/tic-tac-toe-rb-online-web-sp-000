@@ -117,7 +117,7 @@ def play(board)
     turn_counter = turn_count(board)
     if won?(board) == true
       print "Congratulations #{winner(board)}!"
-      
+      break
     elsif draw?(board) == true
       puts "Draw game. Play again?"
     else
